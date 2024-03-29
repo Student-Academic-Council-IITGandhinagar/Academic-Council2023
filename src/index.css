@@ -1,0 +1,47 @@
+/* Root CSS */
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  --red: rgb(237, 28, 36);
+  --blue: rgb(26, 46, 79);
+}
+
+/* body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(26, 46, 79, 0.85);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 0.5em;
+} */
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Utilities */
+.h-extrabold{
+  font-weight: 800;
+}
+
+.h-bold{
+  font-weight: 700;
+}
+.h-semibold{
+  font-weight: 600;
+}
+
+.h-medium{
+  font-weight: 500;
+}
+
+/* Responsive Section */

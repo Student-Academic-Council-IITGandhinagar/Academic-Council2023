@@ -1,0 +1,114 @@
+#intern::before {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+}
+
+#intern::after {
+  content: "";
+  background-color: var(--blue);
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  z-index: -2;
+}
+
+#intern {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+#intern .intern-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+#intern h1 {
+  max-width: 60%;
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+#intern .App {
+  text-align: center;
+}
+
+#intern .intern-button button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--red);
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#intern .intern-button button:hover {
+  transform: scale(1.05);
+}
+
+#intern .table-container input {
+  margin-bottom: 1rem;
+}
+#intern .table-container thead {
+  color: var(--red);
+}
+
+#intern .table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#intern .table-container th,
+#intern .table-container td {
+  font-size: 0.85rem;
+  border: 1px solid #ddd;
+  padding: 8px;
+  /* Add your preferred border color */
+  text-align: center;
+}
+
+#intern .table-container td {
+  text-align: left;
+}
+#intern .table-container td a {
+  text-decoration: none;
+  color: white;
+}
+
+#intern .table-container th {
+  background-color: #f2f2f2;
+  /* Add your preferred header background color */
+}
+
+/* Academic Intern Section */
+#acad-intern {
+  max-width: 95%;
+}
+
+/* Responsive Section */
+@media screen and (max-width: 600px) {
+  #intern h1 {
+    max-width: 80%;
+    font-size: 1.5rem;
+  }
+}
