@@ -11,6 +11,8 @@ import PassFailCalculator from './components/PassFail';
 import GradeTracker from './components/GradeTracker';
 import SRCs, { SRCsKnownMore } from './components/SRCs';
 import Internship from './components/Internships';
+import ADH_PAL from './components/ADH_PAL';
+import CRs from './components/CRs';
 import Updated from './components/Updated';
 import Footer from './components/Footer';
 
@@ -41,6 +43,8 @@ function App() {
         <Route path='/SRCs' element={<SRCs />} />
         <Route path='/SRCs/:index' element={<SRCsKnownMore />} />
         <Route path='/internships' element={<Internship />} />
+        <Route path='/ADH-PAL' element={<ADH_PAL />} />
+        <Route path='/CRs' element={<CRs />} /> 
         <Route path='*' element={<Updated />} />
       </Routes>
       <Footer />

@@ -1,0 +1,68 @@
+/* CRs Section*/
+/* https://drive.google.com/file/d/1MvwXJyfe_Ua3gCctK_-LUhQK6hnsdT_G/view*/
+#crs::before {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+}
+
+#crs::after {
+  content: "";
+  background-color: var(--blue);
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.65;
+  z-index: -2;
+}
+
+#crs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: auto;
+}
+
+.allcrs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 1.5rem 5rem 1.5rem;
+}
+
+.batch{
+  border: 1.55px solid white;
+}
+
+.batch .blocks{
+  display: flex;
+  flex-direction: row;
+}
+
+.batch .blocks h3{
+  min-width: 300px;
+  width: 20vw;
+  border: 1.55px solid white;
+  padding: 0.5rem 1rem;
+}
+
+#crs h1 {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+/* Responsive Section */
+@media screen and (max-width: 600px) {
+  #crs h1 {
+    font-size: 1.5rem;
+  }
+}
