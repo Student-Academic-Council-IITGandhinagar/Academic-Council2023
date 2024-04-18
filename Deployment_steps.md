@@ -21,8 +21,7 @@ Navigate to File Manager.
 
 Click on public\_html directory:
 
-![Alt text](relative%20Images/Screenshot%202024-02-29%20113601.png?raw=true "Title")
-Images/Screenshot%202024-02-29%20113601.png
+![Alt text](Images/Screenshot%202024-02-29%20113601.png?raw=true "Title")
 
 <a name="br2"></a> 
 
