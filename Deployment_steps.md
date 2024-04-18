@@ -27,10 +27,15 @@ Click on public\_html directory:
 
 Navigate to public\_html Directory:
 
+![Alt text](Images/Screenshot%202024-02-29%20113706.png?raw=true "Title")
+
 Go to student-academic-council:
 
-Upload the Zip File:
+![Alt text](Images/Screenshot%202024-02-29%20113751.png?raw=true "Title")
 
+
+Upload the Zip File:
+![Alt text](Images/Screenshot%202024-02-29%20113859.png?raw=true "Title")
 
 
 <a name="br3"></a> 
@@ -45,6 +50,8 @@ Now, You may delete the build zip and build directory.
 
 Open the index.html file. it will look like the following:
 
+![Alt text](Images/Screenshot%202024-02-29%20114439.png?raw=true "Title")
+
 
 
 <a name="br4"></a> 
@@ -54,6 +61,8 @@ Adjust the paths in icon links, manifest links, scripts, and CSS links by adding
 "/student-academic-council" at the beginning of each path.
 
 Save Changes:
+
+![Alt text](Images/Screenshot%202024-02-29%20114538.png?raw=true "Title")
 
 Check the Website:
 
