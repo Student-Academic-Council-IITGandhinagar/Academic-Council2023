@@ -48,6 +48,9 @@ export default function Navbar({ onLinkClick }) {
               <Link to="/SRCs" className="ham-link linkEventListener">SRCs</Link>
             </li>
             <li className="ham-item">
+              <a href="/student-academic-council/PDFs/SAC_Objective_Structure.pdf" className="ham-link linkEventListener" target="_blank" rel="noreferrer">Structure</a>
+            </li>
+            <li className="ham-item">
               <Link to="/experiences" className="ham-link linkEventListener" onClick={() => onLinkClick(0)}>Experiences</Link>
             </li>
             <ul>
@@ -70,6 +73,9 @@ export default function Navbar({ onLinkClick }) {
             </li>
           </ul>
           <ul className="ham-subcontainer">
+            <li className="ham-item">
+              <a href="https://docs.google.com/document/d/1S5BRwSk9x4K-reLF4Rjcz-XeG1lbzc0nsSdl67viAXY/edit?usp=drivesdk" className="ham-link linkEventListener" target="_blank" rel="noreferrer">SAC Report</a>
+            </li>
             <li className="ham-item">
               <Link to="/grade-req-tracker" className="ham-link linkEventListener">Grad Req Tracker</Link>
             </li>
