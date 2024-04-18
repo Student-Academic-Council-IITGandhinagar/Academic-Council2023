@@ -17,9 +17,12 @@ After the build process, create a zip file of the build folder.
 
 Navigate to File Manager.
 
+
+
 Click on public\_html directory:
 
-
+![Alt text](relative%20Images/Screenshot%202024-02-29%20113601.png?raw=true "Title")
+Images/Screenshot%202024-02-29%20113601.png
 
 <a name="br2"></a> 
 
