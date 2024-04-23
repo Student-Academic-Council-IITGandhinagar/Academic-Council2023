@@ -2,32 +2,6 @@ export const allCRs = [
     [
         {
             name: "Computer Science Engineering",
-            branch: "Anshul Choudhary"
-        },
-        {
-            name: "Mechanical Engineering",
-            branch: "Mayur Dnyaneshwar Patil"
-        },
-        {
-            name: "Chemical Engineering",
-            branch: "Ameya Tajne"
-        },
-        {
-            name: "Civil Engineering",
-            branch: "Manas Agrawal"
-        },
-        {
-            name: "Electrical Engineering",
-            branch: "Zaqi Momin"
-        },
-        {
-            name: "Material Science Engineering",
-            branch: "--"
-        },
-    ],
-    [
-        {
-            name: "Computer Science Engineering",
             branch: "--"
         },
         {
@@ -45,6 +19,32 @@ export const allCRs = [
         {
             name: "Electrical Engineering",
             branch: "Vrajesh Patel"
+        },
+        {
+            name: "Material Science Engineering",
+            branch: "--"
+        },
+    ],
+    [
+        {
+            name: "Computer Science Engineering",
+            branch: "Anshul Choudhary"
+        },
+        {
+            name: "Mechanical Engineering",
+            branch: "Mayur Dnyaneshwar Patil"
+        },
+        {
+            name: "Chemical Engineering",
+            branch: "Ameya Tajne"
+        },
+        {
+            name: "Civil Engineering",
+            branch: "Manas Agrawal"
+        },
+        {
+            name: "Electrical Engineering",
+            branch: "Zaqi Momin"
         },
         {
             name: "Material Science Engineering",
